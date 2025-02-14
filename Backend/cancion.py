@@ -9,7 +9,7 @@ def agregar_cancion():
     data = request.json
     nombre = data.get('nombre')
     artista = data.get('artista')
-    album = data.get('album')
+    album = data.get('genero musical')
 
     nueva_cancion = {
         'nombre': nombre,
